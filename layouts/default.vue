@@ -6,25 +6,27 @@
         <nuxt />
       </v-container>
     </v-main>
-    <v-footer :absolute="!fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
+    <common-footer></common-footer>
   </v-app>
 </template>
 
 <script>
 import CommonHeader from '~/components/common/commonHeader.vue'
+import CommonFooter from '~/components/common/commonFooter.vue'
 
 export default {
   components: {
     CommonHeader,
+    CommonFooter,
   },
   data() {
-    return {
-
-      fixed: false,
-
-    }
+    return {}
   },
 }
 </script>
+
+<style>
+* {
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+</style>

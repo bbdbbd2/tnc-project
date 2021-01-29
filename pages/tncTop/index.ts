@@ -6,7 +6,7 @@ export default {
     return {
       items: [
         {
-          src: "/img1.jpg",
+          src: "/tnc_youtube_banner.002psd.jpg",
         },
         {
           src: "/img2.jpg",
